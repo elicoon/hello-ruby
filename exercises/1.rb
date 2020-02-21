@@ -21,3 +21,11 @@
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
 
+#creating my variables
+d1 = rand(1...6)
+d2 = rand(1...6)
+roll_total = d1+d2
+
+puts "Your first roll is #{d1}"
+puts "Your second roll is #{d2}"
+puts "Your total is #{roll_total}"
